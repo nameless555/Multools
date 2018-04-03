@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Multools</string>
+    <string name="title_activity_main_tab">MainTabActivity</string>
+    <string name="action_settings">About...</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="first_fragment">Hello first fragment</string>
+    <string name="second_fragment">Hello second fragment</string>
+    <string name="title_activity_main2">Multools</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="open_drawer">Open Menu</string>
+    <string name="close_drawer">Close Menu</string>
+    <string name="error_1_percent">±1%</string>
+    <string name="error_2_percent">±2%</string>
+    <string name="error_5_percent">±5%</string>
+    <string name="error_10_percent">±10%</string>
+    <string name="error_05_percent">±0.5%</string>
+    <string name="error_025_percent">±0.25%</string>
+    <string name="error_01_percent">±0.1%</string>
+    <string name="title_activity_main2_tab">Multools</string>
+    <string name="band_4">4Band</string>
+    <string name="resister_color_code">resister color code</string>
+    <string name="capacitor">Capacitor</string>
+    <string name="about">About</string>
+
+    <string name="ppm100">100</string>
+    <string name="ppm50">50</string>
+    <string name="ppm15">15</string>
+    <string name="ppm25">25</string>
+    <string name="resister">resister</string>
+    <string name="resister_smd">SMD Resister</string>
+    <string name="go_to_home">go to Home</string>
+    <string name="unit_converter">unit converter</string>
+    <string name="law_s_ohm">Law\'s Ohm</string>
+    <string name="title_activity_cap">CapActivity</string>
+
+    <string name="title_activity_resister">Resister</string>
+    <string name="title_activity_capacitor">Capacitor</string>
+    <string name="title_activity_converter">Unite Converter</string>
+    <string name="title_activity_ohm">Ohm Law</string>
+    <string name="title_activity_about">About Us</string>
+
+    <string name="title_activity_convert_r">Convert Ω</string>
+
+</resources>

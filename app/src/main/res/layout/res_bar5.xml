@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+    tools:showIn="@layout/fragment_res1_first">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn5gold"
+            style="@style/btn_tab"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_btn_gold"
+            android:text="@string/error_5_percent" />
+
+        <Button
+            android:id="@+id/btn5silver"
+            style="@style/btn_tab"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_btn_silver"
+            android:text="@string/error_10_percent" />
+
+
+        <Button
+            android:id="@+id/btn5brown"
+            style="@style/btn_tab"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_btn_brown"
+            android:text="@string/error_1_percent" />
+
+
+        <Button
+            android:id="@+id/btn5red"
+            style="@style/btn_tab"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_btn_red"
+            android:text="@string/error_2_percent" />
+
+        <Button
+            android:id="@+id/btn5green"
+            style="@style/btn_tab2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_btn_green"
+            android:text="@string/error_05_percent" />
+
+        <Button
+            android:id="@+id/btn5blue"
+            style="@style/btn_tab2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_btn_blue"
+            android:text="@string/error_025_percent" />
+
+        <Button
+            android:id="@+id/btn5violet"
+            style="@style/btn_tab2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_btn_violet"
+            android:text="@string/error_01_percent" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nutchanok.me.testapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.ScreenSplash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Second1Activity"
+            android:label="@string/title_activity_convert_r"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MainFragmentTabActivity"
+            android:label="@string/title_activity_resister"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.ResSmdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:label="@string/title_activity_ohm"
+            android:name=".activity.LawsOhmActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="54728eefd1b77f8b131dc01040ff090d4ac1055a" />
+
+        <activity
+            android:name=".activity.CapActivity"
+            android:label="@string/title_activity_cap"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:label="@string/title_activity_about"
+            android:name=".activity.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:label="@string/title_activity_converter"
+            android:name=".activity.UnitConverterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:label="@string/title_activity_capacitor"
+            android:name=".activity.CapasisterActivity"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

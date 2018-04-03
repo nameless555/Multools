@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+    tools:showIn="@layout/fragment_res1_first">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btn4black"
+            style="@style/btn_tab2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_btn_black"
+            android:text="×1" />
+
+
+        <Button
+            android:id="@+id/btn4brown"
+            style="@style/btn_tab2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_btn_brown"
+            android:text="×10" />
+
+
+        <Button
+            android:id="@+id/btn4red"
+            style="@style/btn_tab2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_btn_red"
+            android:text="×100" />
+
+        <Button
+            android:id="@+id/btn4orange"
+            style="@style/btn_tab2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_btn_orange"
+            android:text="×1K" />
+
+        <Button
+            android:id="@+id/btn4yellow"
+            style="@style/btn_tab2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_btn_yellow"
+            android:text="×10K" />
+
+        <Button
+            android:id="@+id/btn4green"
+            style="@style/btn_tab2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_btn_green"
+            android:text="×100K" />
+
+        <Button
+            android:id="@+id/btn4blue"
+            style="@style/btn_tab2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_btn_blue"
+            android:text="×1M" />
+
+        <Button
+            android:id="@+id/btn4violet"
+            style="@style/btn_tab2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_btn_violet"
+            android:text="×10M" />
+
+        <Button
+            android:id="@+id/btn4silver"
+            style="@style/btn_tab2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_btn_silver"
+            android:text="×0.1" />
+
+        <Button
+            android:id="@+id/btn4gold"
+            style="@style/btn_tab2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_btn_gold"
+            android:text="×0.01" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+    tools:showIn="@layout/fragment_res1_third">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btn6brown"
+            style="@style/btn_tab"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_btn_brown"
+            android:text="@string/ppm100" />
+
+
+        <Button
+            android:id="@+id/btn6red"
+            style="@style/btn_tab"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_btn_red"
+            android:text="@string/ppm50" />
+
+        <Button
+            android:id="@+id/btn6orange"
+            style="@style/btn_tab"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_btn_orange"
+            android:text="@string/ppm15" />
+
+        <Button
+            android:id="@+id/btn6yellow"
+            style="@style/btn_tab"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_btn_yellow"
+            android:text="@string/ppm25" />
+
+    </LinearLayout>
+</ScrollView>
